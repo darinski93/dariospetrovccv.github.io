@@ -11435,3 +11435,18 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.btn-download {
+  display: inline-block;
+  padding: 12px 24px;  
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+  
+}
+
+.btn-download:hover {
+  transition: background-color 0.3s;
+  background-color: white;
+}
