@@ -56,16 +56,9 @@
                 <div class="subheading mb-5">
                     <a>+359876822827</a>
                 </div>
-                <p class="lead mb-5"> Currently I'm trying to turn a new page in my life as I recently discovered my
-                    love and passion in
-                    Software
-                    Engineering.
-                    I have knowledge for application and web development with JavaScript, React, HTML & CSS,Lit & Page Libraries, Mocha, Chai & Playwright.
-                   </p>
-                <p class="lead mb-5">After a lot of years working in the sales and commercial sector,
-                    I've developed very strong communication, problem-solving, quick-learning and adapting skills.
-                    A great team player, working with precision and patience in stressful fast-paced environment.
-                    Result-driven person keen on keeping deadlines and completing tasks in a timely manner.</p>
+                <p class="lead mb-5"> I'm currently attempting to turn a new page in my life after discovering my love and passion for software engineering. I am skilled in JavaScript, React, HTML & CSS, Mocha, Chai, and Playwright for application and web development.
+                </p>
+                <p class="lead mb-5">I've spent several years working in the sales and commercial sectors, where I've honed my communication, problem-solving, quick-learning, and adaptability abilities. An excellent team member who works carefully and patiently in a hectic setting. Result-oriented someone who values meeting deadlines and finishing things on time.</p>
                 <div class="social-icons">
                     <a class="social-icon" href="https://www.linkedin.com/in/darios-petrov-1a4999182/"
                         target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -86,12 +79,31 @@
                 <ul class="fa-ul mb-0">
                     <li class="mb-2 module">
                         <h3>
+                            <img src="assets/img/bungee-jumping (2).png" alt="Kingdom Cosmetics fav icon" width="28"
+                                height="28">
+                            <a href="https://github.com/darinski93/bungee-react-app"
+                                target="_blank">Bungee</a>
+                        </h3>
+                        <p>Bungee: website that serves as your entryway to exciting and daring activities. It was created using React, CSS was used for styling, and it was HTML-structured.</p>
+                    </li>
+                    <li class="mb-2 module">
+                        <h3>
+                            <img src="assets/img/necklace.png" alt="Kingdom Cosmetics fav icon" width="28"
+                                height="28">
+                            <a href="https://github.com/darinski93/bungee-react-app"
+                                target="_blank">Jey Jey</a>
+                        </h3>
+                        <p>The best jewels and accessories may be purchased from this online store. It was developed with React, styled with CSS, and HTML-structured.
+                        </p>
+                    </li>
+                    <li class="mb-2 module">
+                        <h3>
                             <img src="assets/img/pizza.png" alt="Pizzaliciousness project fav icon" width="28"
                                 height="28">
                             <a href="https://github.com/darinski93/project-defense-softuni"
                                 target="_blank">Pizzaliciousness</a>
                         </h3>
-                        <p>SPA made with React. Project made for ReactJS course at SoftUni.</p>
+                        <p>SPA developed with React. Project has been made for SoftUni's ReactJS course.</p>
                     </li>
                     <li class="mb-2 module">
                         <h3>
@@ -102,15 +114,7 @@
                         </h3>
                         <p>My project for the JS Application course at SoftUni.</p>
                     </li>
-                    <li class="mb-2 module">
-                        <h3>
-                            <img src="assets/img/makeup-pouch.png" alt="Kingdom Cosmetics fav icon" width="28"
-                                height="28">
-                            <a href="https://github.com/darinski93/js-application/tree/main/kingdomCosmetics-project"
-                                target="_blank">Kingdom Cosmetics</a>
-                        </h3>
-                        <p>SPA made with Lit-html & Page.</p>
-                    </li>
+                  
 
                 </ul>
             </div>
@@ -161,7 +165,7 @@
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Express 
+                            Express
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -169,7 +173,7 @@
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            POSTMAN
+                            Postman
                         </li>
                     </ul>
                 </div>
@@ -320,6 +324,15 @@
                                         width="700" height="875"></iframe>
                                 </div>
                             </li>
+                            <li>
+                                <h3>
+                                    <a href="#" id="show-pdf-4">JS Back-End</a>
+                                </h3>
+                                <div id="pdf-container-4" style="display: none;">
+                                    <iframe id="pdf-iframe-4" src="./cer/JS Back-End - May 2023 - Certificate.pdf"
+                                        width="700" height="875"></iframe>
+                                </div>
+                            </li>
                         </ol>
                     </li>
 
@@ -337,6 +350,10 @@
                             event.preventDefault();
                             document.getElementById("pdf-container-3").style.display = "block";
                         });
+                        document.getElementById("show-pdf-4").addEventListener("click", function (event) {
+                            event.preventDefault();
+                            document.getElementById("pdf-container-4").style.display = "block";
+                        });
 
                         document.addEventListener("click", function (event) {
                             if (event.target !== document.getElementById("pdf-container-1") && event.target !== document.getElementById("show-pdf-1")) {
@@ -347,6 +364,9 @@
                             }
                             if (event.target !== document.getElementById("pdf-container-3") && event.target !== document.getElementById("show-pdf-3")) {
                                 document.getElementById("pdf-container-3").style.display = "none";
+                            }
+                            if (event.target !== document.getElementById("pdf-container-4") && event.target !== document.getElementById("show-pdf-4")) {
+                                document.getElementById("pdf-container-4").style.display = "none";
                             }
                         });
                     </script>

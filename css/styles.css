@@ -41,7 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
+  --bs-primary-rgb: 51, 153, 102;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -7368,6 +7368,7 @@ textarea.form-control-lg {
 
 .mb-2 {
   margin-bottom: 0.5rem !important;
+  list-style: none;
 }
 
 .mb-3 {
@@ -11450,3 +11451,4 @@ section.resume-section .resume-section-content {
   transition: background-color 0.3s;
   background-color: white;
 }
+
